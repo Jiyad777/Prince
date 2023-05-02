@@ -49,12 +49,12 @@ I'm an auto approve Admin Join Requests Bot.
 I can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.
 Bot Created By : @CricketTipstersDiary'''
     button = [[
-            InlineKeyboardButton('TCTD LIVE LINE', url='https://t.me/+ceFPQe38y282NTQ1')
-            ],[
             InlineKeyboardButton('TCTD MAIN CHANNEL✅️', url='https://t.me/+qyQPVznTecBmMDU1')
+            ],[
+            InlineKeyboardButton('TCTD LIVE LINE', url='https://t.me/+ceFPQe38y282NTQ1')
     ]]
     await m.reply_photo(
-        photo='https://telegra.ph/file/2f8ce02ad5148d9e1dbd3.jpg', 
+        photo='https://graph.org/file/ff6975cec25cdae9c7c62.jpg', 
         caption=text,
         reply_markup=InlineKeyboardMarkup(button),
         quote=True

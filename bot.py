@@ -22,9 +22,9 @@ async def autoapprove(c, m):
     try:
         await c.approve_chat_join_request(m.chat.id, m.from_user.id)
         button = [[
-            InlineKeyboardButton('JOIN MOVIE CHANNEL🎬', url='https://t.me/+K_OmXxehTJVjMzBl')
+            InlineKeyboardButton('Our Main Channel', url='https://t.me/+qyQPVznTecBmMDU1')
             ],[
-            InlineKeyboardButton('✅️JOIN MOVIE GROUP📽️', url='https://t.me/+iiJvauon_6Q1Njk1')
+            InlineKeyboardButton('Our Instagram Link', url='https://www.instagram.com/crickettipstersdiary')
         ]]
         markup = InlineKeyboardMarkup(button)
         caption = f'Hello {m.from_user.mention()}\nYou Request To Join {m.chat.title} Was Approved.'
@@ -46,11 +46,12 @@ async def autoapprove(c, m):
 async def start(c, m):
     text = f'''Hello {m.from_user.mention()} 👋
 I'm an auto approve Admin Join Requests Bot.
-I can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.'''
+I can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.
+Bot Created By : @JK_SER'''
     button = [[
-            InlineKeyboardButton('JOIN CHANNEL✅️', url='https://t.me/+f16LP7YW2G03MzM1')
+            InlineKeyboardButton('Our Live Line', url='https://t.me/+ceFPQe38y282NTQ1')
             ],[
-            InlineKeyboardButton('➰️UPDATES➰️', url='https://t.me/+FCUs6o6FXSZkNjc6')
+            InlineKeyboardButton('Our YouTube Channel', url='https://youtube.com/@thecrickettipstersdiary')
     ]]
     await m.reply_photo(
         photo='https://telegra.ph/file/2f8ce02ad5148d9e1dbd3.jpg', 

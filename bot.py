@@ -49,9 +49,9 @@ I'm an auto approve Admin Join Requests Bot.
 I can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.
 Bot Created By : @CricketTipstersDiary'''
     button = [[
-            InlineKeyboardButton('Our Live Line', url='https://t.me/+ceFPQe38y282NTQ1')
+            InlineKeyboardButton('TCTD LIVE LINE', url='https://t.me/+ceFPQe38y282NTQ1')
             ],[
-            InlineKeyboardButton('Our YouTube Channel', url='https://youtube.com/@thecrickettipstersdiary')
+            InlineKeyboardButton('TCTD MAIN CHANNEL✅️', url='https://t.me/+qyQPVznTecBmMDU1')
     ]]
     await m.reply_photo(
         photo='https://telegra.ph/file/2f8ce02ad5148d9e1dbd3.jpg', 

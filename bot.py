@@ -22,7 +22,7 @@ async def autoapprove(c, m):
     try:
         await c.approve_chat_join_request(m.chat.id, m.from_user.id)
         button = [[
-            InlineKeyboardButton('Our Main Channel', url='https://t.me/+qyQPVznTecBmMDU1')
+            InlineKeyboardButton('Our YouTube Link', url='https://youtube.com/@thecrickettipstersdiary')
             ],[
             InlineKeyboardButton('Our Instagram Link', url='https://www.instagram.com/crickettipstersdiary')
         ]]

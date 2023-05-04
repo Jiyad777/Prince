@@ -21,7 +21,7 @@ async def autoapprove(c, m):
     await c.db.add_user(m.from_user.id)
     try:
         await c.approve_chat_join_request(m.chat.id, m.from_user.id)
-        buttons = [[
+        button = [[
 
             InlineKeyboardButton('Our Main Channel✅️', url='https://t.me/+qyQPVznTecBmMDU1')
 

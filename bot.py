@@ -26,10 +26,6 @@ async def autoapprove(c, m):
             ],[
             InlineKeyboardButton('Our Instagram Link❤️', url='https://www.instagram.com/crickettipstersdiary')
         ]]
-            InlineKeyboardButton('Our Live Line BUTTON🗨️', url='https://t.me/+ceFPQe38y282NTQ1')
-            ],[
-            InlineKeyboardButton('Our Main Channel BUTTON✅️', url='https://t.me/+qyQPVznTecBmMDU1')
-            ],[
         markup = InlineKeyboardMarkup(button)
         caption = f'Hello {m.from_user.mention()}\nYou Request To Join {m.chat.title} Was Approved.'
         await c.send_photo(

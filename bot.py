@@ -21,10 +21,22 @@ async def autoapprove(c, m):
     await c.db.add_user(m.from_user.id)
     try:
         await c.approve_chat_join_request(m.chat.id, m.from_user.id)
-        button = [[
-            InlineKeyboardButton('Our YouTube Link💎', url='https://youtube.com/@thecrickettipstersdiary')
+        buttons = [[
+
+            InlineKeyboardButton('Our Main Channel✅️', url=https://t.me/+qyQPVznTecBmMDU1')
+
             ],[
-            InlineKeyboardButton('Our Instagram Link❤️', url='https://www.instagram.com/crickettipstersdiary')
+
+            InlineKeyboardButton('Our Live Line🔰', url='https://t.me/+ceFPQe38y282NTQ1')
+
+            ],[      
+
+            InlineKeyboardButton('Our Instagram Link🪩', url='https://www.instagram.com/crickettipstersdiary')
+
+            ],[
+
+            InlineKeyboardButton('Our YouTube Link🔴', url='https://youtube.com/@thecrickettipstersdiary')
+
         ]]
         markup = InlineKeyboardMarkup(button)
         caption = f'Hello {m.from_user.mention()}\nYou Request To Join {m.chat.title} Was Approved.'
